@@ -54,7 +54,7 @@ export const Route = createFileRoute("/")({
 });
 
 const TRUST = [
-  { icon: ShieldCheck, label: "Licensed & Insured", sub: "CSLB #1094412" },
+  { icon: ShieldCheck, label: "Licensed & Insured", sub: "Fully bonded coverage" },
   { icon: Clock, label: "24/7 Emergency", sub: "Same-day tarping" },
   { icon: BadgeCheck, label: "25-Year Warranty", sub: "Labor + materials" },
 ];
@@ -79,7 +79,7 @@ function Index() {
             </span>
           </div>
           <div className="ml-auto flex items-center gap-2">
-            <a href="tel:+13105550142" className="shrink-0">
+            <a href="tel:+14248356576" className="shrink-0">
               <Button variant="pill" size="pill" className="text-xs sm:text-sm">
                 <Phone className="size-4" />
                 <span className="hidden sm:inline">
@@ -130,9 +130,9 @@ function Index() {
                   Start free estimate
                 </Button>
               </a>
-              <a href="tel:+13105550142" className="sm:w-auto">
+              <a href="tel:+14248356576" className="sm:w-auto">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  <Phone className="size-4" /> (310) 555-0142
+                  <Phone className="size-4" /> (424) 835-6576
                 </Button>
               </a>
             </div>
@@ -248,7 +248,7 @@ function Index() {
             Serving Hawthorne, Lawndale, El Segundo, Gardena & the South Bay.
           </p>
           <p className="mt-4 text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Install It Roofing · CSLB #1094412
+            © {new Date().getFullYear()} Install It Roofing · Hawthorne, CA
           </p>
         </div>
       </footer>
