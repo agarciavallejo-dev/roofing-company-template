@@ -58,7 +58,7 @@ function Index() {
             <a href="tel:+13105550142" className="shrink-0">
               <Button variant="pill" size="pill" className="text-xs sm:text-sm">
                 <Phone className="size-4" />
-                <span className="hidden xs:inline sm:inline">
+                <span className="hidden sm:inline">
                   Call for Emergency Repair
                 </span>
                 <span className="inline sm:hidden">Emergency</span>
