@@ -50,8 +50,8 @@ export function BeforeAfter() {
         />
         {/* Before (clipped) */}
         <div
-          className="absolute inset-0 overflow-hidden"
-          style={{ width: `${pos}%` }}
+          className="absolute inset-0"
+          style={{ clipPath: `inset(0 ${100 - pos}% 0 0)` }}
         >
           <img
             src={beforeRoof}
@@ -60,10 +60,10 @@ export function BeforeAfter() {
             height={800}
             loading="lazy"
             draggable={false}
-            className="absolute inset-0 h-full w-full max-w-none object-cover"
-            style={{ width: ref.current?.clientWidth ?? "100%" }}
+            className="absolute inset-0 size-full object-cover"
           />
         </div>
+
 
         <span className="pointer-events-none absolute left-3 top-3 rounded-full border border-border bg-background/80 px-3 py-1 text-[11px] font-semibold uppercase tracking-widest backdrop-blur-md">
           Before: Damaged Roof
