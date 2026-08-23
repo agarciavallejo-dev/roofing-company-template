@@ -1,8 +1,32 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Phone, ShieldCheck, Clock, BadgeCheck, MapPin, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { Estimator } from "@/components/Estimator";
+import { BeforeAfter } from "@/components/BeforeAfter";
+import { ZipValidator } from "@/components/ZipValidator";
 import heroRoof from "@/assets/hero-roof.jpg";
+
+const FAQS = [
+  {
+    q: "How long does a standard Hawthorne roof installation take?",
+    a: "Most single-family homes in Hawthorne are torn off and fully re-roofed in 2 to 3 working days. Larger properties or complex multi-pitch roofs can run 4 to 5 days. We stage materials the afternoon before so crews start at 7am and stay off your street by early evening.",
+  },
+  {
+    q: "Do you assist with local South Bay storm insurance claims?",
+    a: "Yes. We document damage with dated photos and a written scope, meet your adjuster on site, and handle supplement requests directly with the carrier. We have worked claims across Hawthorne, Lawndale, Gardena and El Segundo for two decades.",
+  },
+  {
+    q: "What roofing materials handle California heat best?",
+    a: "Cool-rated architectural shingles with reflective granules and a properly vented ridge stay dramatically cooler than standard three-tab. For flat sections, white TPO membrane reflects the most heat. Both qualify for Title 24 cool-roof credits in Los Angeles County.",
+  },
+];
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
