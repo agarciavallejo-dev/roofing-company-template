@@ -159,7 +159,63 @@ function Index() {
             </div>
           </div>
         </section>
+
+        {/* Before / After */}
+        <section className="px-4 pb-12">
+          <div className="mx-auto max-w-5xl">
+            <div className="mb-6">
+              <span className="text-xs font-semibold uppercase tracking-[0.22em] text-primary">
+                Real local projects
+              </span>
+              <h2 className="mt-2 text-3xl font-extrabold sm:text-4xl">
+                Our Neighborhood Transformations
+              </h2>
+              <p className="mt-2 text-sm text-muted-foreground">
+                Drag the handle to reveal the difference.
+              </p>
+            </div>
+            <BeforeAfter />
+          </div>
+        </section>
+
+        {/* ZIP validator */}
+        <section className="px-4 pb-12">
+          <div className="mx-auto max-w-2xl">
+            <ZipValidator />
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="px-4 pb-16">
+          <div className="mx-auto max-w-3xl">
+            <div className="mb-6">
+              <span className="text-xs font-semibold uppercase tracking-[0.22em] text-primary">
+                Good to know
+              </span>
+              <h2 className="mt-2 text-3xl font-extrabold sm:text-4xl">
+                Frequently asked questions
+              </h2>
+            </div>
+            <Accordion type="single" collapsible className="grid gap-3">
+              {FAQS.map((f, i) => (
+                <AccordionItem
+                  key={f.q}
+                  value={`item-${i}`}
+                  className="surface-card border-b px-5"
+                >
+                  <AccordionTrigger className="text-left text-base font-semibold hover:no-underline">
+                    {f.q}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-sm leading-relaxed text-muted-foreground">
+                    {f.a}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </section>
       </main>
+
 
       <footer className="border-t border-border/70 px-4 py-8">
         <div className="mx-auto max-w-5xl">
