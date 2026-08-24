@@ -10,6 +10,8 @@ import {
 import { Estimator } from "@/components/Estimator";
 import { BeforeAfter } from "@/components/BeforeAfter";
 import { ZipValidator } from "@/components/ZipValidator";
+import { FinancingCalculator } from "@/components/FinancingCalculator";
+import { GoogleReviews } from "@/components/GoogleReviews";
 import heroRoof from "@/assets/hero-roof.jpg";
 
 const FAQS = [
@@ -180,6 +182,7 @@ function Index() {
             </div>
             <div className="mx-auto max-w-2xl">
               <Estimator />
+              <FinancingCalculator />
             </div>
           </div>
         </section>
@@ -199,6 +202,24 @@ function Index() {
               </p>
             </div>
             <BeforeAfter />
+          </div>
+        </section>
+
+        {/* Google Reviews */}
+        <section className="px-4 pb-12">
+          <div className="mx-auto max-w-3xl">
+            <div className="mb-6 text-center">
+              <span className="text-xs font-semibold uppercase tracking-[0.22em] text-primary">
+                Google Reviews
+              </span>
+              <h2 className="mt-2 text-3xl font-extrabold sm:text-4xl">
+                What neighbors say
+              </h2>
+              <p className="mt-2 text-sm text-muted-foreground">
+                4.9/5 stars from 88 local South Bay homeowners.
+              </p>
+            </div>
+            <GoogleReviews />
           </div>
         </section>
 
