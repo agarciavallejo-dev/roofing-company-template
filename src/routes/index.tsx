@@ -12,6 +12,8 @@ import { BeforeAfter } from "@/components/BeforeAfter";
 import { ZipValidator } from "@/components/ZipValidator";
 import { FinancingCalculator } from "@/components/FinancingCalculator";
 import { GoogleReviews } from "@/components/GoogleReviews";
+import { TrustBadgeGrid } from "@/components/TrustBadgeGrid";
+import { InsuranceProcess } from "@/components/InsuranceProcess";
 import heroRoof from "@/assets/hero-roof.jpg";
 
 const FAQS = [
@@ -119,6 +121,7 @@ function Index() {
                 4.9/5 Stars from 88 Local Google Reviews
               </p>
             </div>
+            <TrustBadgeGrid />
 
             <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground">
               Tear-offs, flat roof systems and seamless gutters installed by a
@@ -183,6 +186,7 @@ function Index() {
             <div className="mx-auto max-w-2xl">
               <Estimator />
               <FinancingCalculator />
+              <InsuranceProcess />
             </div>
           </div>
         </section>
