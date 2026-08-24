@@ -11,6 +11,7 @@ import { Estimator } from "@/components/Estimator";
 import { BeforeAfter } from "@/components/BeforeAfter";
 import { ZipValidator } from "@/components/ZipValidator";
 import { FinancingCalculator } from "@/components/FinancingCalculator";
+import { GoogleReviews } from "@/components/GoogleReviews";
 import heroRoof from "@/assets/hero-roof.jpg";
 
 const FAQS = [
