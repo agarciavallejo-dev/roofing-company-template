@@ -10,6 +10,7 @@ import {
 import { Estimator } from "@/components/Estimator";
 import { BeforeAfter } from "@/components/BeforeAfter";
 import { ZipValidator } from "@/components/ZipValidator";
+import { FinancingCalculator } from "@/components/FinancingCalculator";
 import heroRoof from "@/assets/hero-roof.jpg";
 
 const FAQS = [
@@ -180,6 +181,7 @@ function Index() {
             </div>
             <div className="mx-auto max-w-2xl">
               <Estimator />
+              <FinancingCalculator />
             </div>
           </div>
         </section>
