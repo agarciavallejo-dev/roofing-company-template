@@ -29,7 +29,7 @@ export function ZipValidator() {
       </div>
       <h3 className="mt-2 text-xl font-bold">Do we cover your street?</h3>
       <p className="mt-1 text-sm text-muted-foreground">
-        Enter your South Bay ZIP code for instant availability.
+        Enter your ZIP code for instant availability.
       </p>
 
       <form

@@ -79,12 +79,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Install It Roofing | Hawthorne, CA" },
+      { title: "[Company Name] | [City], [State]" },
       {
         name: "description",
-        content: "Trusted roofing experts serving Hawthorne and the South Bay.",
+        content: "Trusted roofing experts serving [City] and [Service Area].",
       },
-      { name: "author", content: "Install It Roofing" },
+      { name: "author", content: "[Company Name]" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
