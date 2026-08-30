@@ -2,27 +2,27 @@ import { Star } from "lucide-react";
 
 const REVIEWS = [
   {
-    name: "GIANNA25 S.",
-    location: "Hawthorne, CA",
+    name: "[Customer 1]",
+    location: "[City, ST]",
     rating: 5,
     date: "Verified Customer",
-    text: "I chose Install It Roofing Hawthorne because they work in Hawthorne and offered a free estimate for roofing services. My estimator, Trenton, was friendly, experienced, and easy to talk to, which made my choice to move forward with the skylight and sun tunnel installation simple. He answered all of my questions with patience, explained the roofing process clearly, and helped me feel confident about the work being done on my home. The roofing crew that completed the job was professional, dependable, and respectful of our property. Everything was completed smoothly, and the finished work looks great.",
+    text: "I chose this roofing company because they work locally and offered a free estimate for roofing services. My estimator was friendly, experienced, and easy to talk to, which made my choice to move forward with the skylight and sun tunnel installation simple. He answered all of my questions with patience, explained the roofing process clearly, and helped me feel confident about the work being done on my home. The roofing crew that completed the job was professional, dependable, and respectful of our property. Everything was completed smoothly, and the finished work looks great.",
     services: ["Skylight Repair", "Attic Venting", "Gutter Installation"],
   },
   {
-    name: "N. GAMBLE",
-    location: "Hawthorne, CA",
+    name: "[Customer 2]",
+    location: "[City, ST]",
     rating: 5,
     date: "Verified Customer",
-    text: "I called Install It Roofing Hawthorne for my nearly flat roof when leaks started showing up around the skylights. I was really impressed by how detailed and professional the paperwork was. They covered everything clearly, including insurance details like workers comp and hot torch coverage, which gave me a lot of confidence. Bryson was very professional from start to finish. Later, Preston and the crew installed a new almost-flat roof over that section of the house, and the whole process went smoothly. The price was fair, the service was excellent, and they explained the repair steps in simple terms.",
+    text: "I called this roofing company for my nearly flat roof when leaks started showing up around the skylights. I was really impressed by how detailed and professional the paperwork was. They covered everything clearly, including insurance details like workers comp and hot torch coverage, which gave me a lot of confidence. The estimator was very professional from start to finish. Later, the crew installed a new almost-flat roof over that section of the house, and the whole process went smoothly. The price was fair, the service was excellent, and they explained the repair steps in simple terms.",
     services: ["Attic Venting Repairs", "Flat Roof Storm & Wind Damage Repair"],
   },
   {
-    name: "AUBREE ROMAN",
-    location: "Hawthorne, CA",
+    name: "[Customer 3]",
+    location: "[City, ST]",
     rating: 5,
     date: "Verified Customer",
-    text: "We had a fantastic experience with this roofing company. From the first call with their office staff to the crew working on our roof, everyone was professional and friendly. The job was finished on schedule, and their customer service really stood out. This was by far one of the best experiences we've had with any contractor. Our new roof and gutters look amazing and work just as they should. The price was fair and competitive. The team, including Preston, made the whole process smooth, and they did an outstanding job with the clean up.",
+    text: "We had a fantastic experience with this roofing company. From the first call with their office staff to the crew working on our roof, everyone was professional and friendly. The job was finished on schedule, and their customer service really stood out. This was by far one of the best experiences we've had with any contractor. Our new roof and gutters look amazing and work just as they should. The price was fair and competitive. The team made the whole process smooth, and they did an outstanding job with the clean up.",
     services: ["Attic Venting Repairs", "Roof Repair for Storm & Wind Damage"],
   },
 ];
