@@ -18,16 +18,16 @@ import heroRoof from "@/assets/hero-roof.jpg";
 
 const FAQS = [
   {
-    q: "How long does a standard Hawthorne roof installation take?",
-    a: "Most single-family homes in Hawthorne are torn off and fully re-roofed in 2 to 3 working days. Larger properties or complex multi-pitch roofs can run 4 to 5 days. We stage materials the afternoon before so crews start at 7am and stay off your street by early evening.",
+    q: "How long does a standard roof installation take?",
+    a: "Most single-family homes are torn off and fully re-roofed in 2 to 3 working days. Larger properties or complex multi-pitch roofs can run 4 to 5 days. We stage materials the afternoon before so crews start at 7am and stay off your street by early evening.",
   },
   {
-    q: "Do you assist with local South Bay storm insurance claims?",
-    a: "Yes. We document damage with dated photos and a written scope, meet your adjuster on site, and handle supplement requests directly with the carrier. We have worked claims across Hawthorne, Lawndale, Gardena and El Segundo for two decades.",
+    q: "Do you assist with local storm insurance claims?",
+    a: "Yes. We document damage with dated photos and a written scope, meet your adjuster on site, and handle supplement requests directly with the carrier. We have worked claims across [Service Area] for two decades.",
   },
   {
-    q: "What roofing materials handle California heat best?",
-    a: "Cool-rated architectural shingles with reflective granules and a properly vented ridge stay dramatically cooler than standard three-tab. For flat sections, white TPO membrane reflects the most heat. Both qualify for Title 24 cool-roof credits in Los Angeles County.",
+    q: "What roofing materials handle hot climates best?",
+    a: "Cool-rated architectural shingles with reflective granules and a properly vented ridge stay dramatically cooler than standard three-tab. For flat sections, white TPO membrane reflects the most heat. Both qualify for cool-roof credits in many regions.",
   },
 ];
 
@@ -35,20 +35,20 @@ const FAQS = [
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Install It Roofing | Hawthorne, CA Roof Repair & Replacement" },
+      { title: "[Company Name] | [City] Roof Repair & Replacement" },
       {
         name: "description",
         content:
-          "Hawthorne's trusted roofing experts. 4.9/5 from 88 local Google reviews. Free 3-step online estimate for shingles, flat roofs and gutters.",
+          "[City]'s trusted roofing experts. 4.9/5 from local Google reviews. Free 3-step online estimate for shingles, flat roofs and gutters.",
       },
       {
         property: "og:title",
-        content: "Install It Roofing | Hawthorne's Trusted Roofing Experts",
+        content: "[Company Name] | [City]'s Trusted Roofing Experts",
       },
       {
         property: "og:description",
         content:
-          "Emergency repair, re-roofs, flat roof systems and seamless gutters in Hawthorne, CA. Get an instant project estimate.",
+          "Emergency repair, re-roofs, flat roof systems and seamless gutters in [City], [State]. Get an instant project estimate.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -71,19 +71,19 @@ function Index() {
         <div className="mx-auto flex max-w-5xl items-center gap-3 px-4 py-3">
           <div className="flex min-w-0 items-center gap-2.5">
             <span className="flex size-9 shrink-0 items-center justify-center rounded-xl ember-fill font-display text-sm font-extrabold">
-              II
+              RN
             </span>
             <span className="min-w-0 leading-tight">
               <span className="block truncate font-display text-sm font-bold">
-                Install It Roofing
+                [Company Name]
               </span>
               <span className="flex items-center gap-1 text-[11px] text-muted-foreground">
-                <MapPin className="size-3" /> Hawthorne, CA
+                <MapPin className="size-3" /> [City, ST]
               </span>
             </span>
           </div>
           <div className="ml-auto flex items-center gap-2">
-            <a href="tel:+14248356576" className="shrink-0">
+            <a href="tel:+15550000000" className="shrink-0">
               <Button variant="pill" size="pill" className="text-xs sm:text-sm">
                 <Phone className="size-4" />
                 <span className="hidden sm:inline">
@@ -107,10 +107,10 @@ function Index() {
         <section className="grid-glow relative overflow-hidden px-4 pb-10 pt-12">
           <div className="mx-auto max-w-5xl">
             <span className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/50 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
-              South Bay · Since 2004
+              [Service Area] · Since [Year]
             </span>
             <h1 className="mt-5 text-[2.6rem] font-extrabold leading-[1.03] sm:text-6xl">
-              Hawthorne's{" "}
+              [City]'s{" "}
               <span className="text-primary">Trusted Roofing</span> Experts
             </h1>
 
@@ -118,7 +118,7 @@ function Index() {
             <div className="mt-6 flex items-center gap-3 rounded-2xl border border-gold/30 bg-secondary/40 px-4 py-3 shadow-[var(--shadow-card)]">
               <span className="text-base tracking-tight">⭐⭐⭐⭐⭐</span>
               <p className="font-display text-sm font-bold text-gold sm:text-base">
-                4.9/5 Stars from 88 Local Google Reviews
+                4.9/5 Stars from Local Google Reviews
               </p>
             </div>
             <TrustBadgeGrid />
@@ -135,9 +135,9 @@ function Index() {
                   Start free estimate
                 </Button>
               </a>
-              <a href="tel:+14248356576" className="sm:w-auto">
+              <a href="tel:+15550000000" className="sm:w-auto">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  <Phone className="size-4" /> (424) 835-6576
+                  <Phone className="size-4" /> (555) 000-0000
                 </Button>
               </a>
             </div>
@@ -145,7 +145,7 @@ function Index() {
             <div className="surface-card mt-9 overflow-hidden p-2">
               <img
                 src={heroRoof}
-                alt="Newly installed dark shingle roof on a Hawthorne home at sunset"
+                alt="Newly installed dark shingle roof on a home at sunset"
                 width={1200}
                 height={1408}
                 className="h-[280px] w-full rounded-[calc(var(--radius)+8px)] object-cover sm:h-[420px]"
@@ -220,7 +220,7 @@ function Index() {
                 What neighbors say
               </h2>
               <p className="mt-2 text-sm text-muted-foreground">
-                4.9/5 stars from 88 local South Bay homeowners.
+                4.9/5 stars from local homeowners in [Service Area].
               </p>
             </div>
             <GoogleReviews />
@@ -268,12 +268,12 @@ function Index() {
 
       <footer className="border-t border-border/70 px-4 py-8">
         <div className="mx-auto max-w-5xl">
-          <p className="font-display font-bold">Install It Roofing</p>
+          <p className="font-display font-bold">[Company Name]</p>
           <p className="mt-1 text-sm text-muted-foreground">
-            Serving Hawthorne, Lawndale, El Segundo, Gardena & the South Bay.
+            Serving [Service Area] and surrounding communities.
           </p>
           <p className="mt-4 text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Install It Roofing · Hawthorne, CA
+            © {new Date().getFullYear()} [Company Name] · [City, ST]
           </p>
         </div>
       </footer>

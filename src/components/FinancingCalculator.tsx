@@ -73,7 +73,7 @@ export function FinancingCalculator() {
       <div className="mt-5 flex items-start gap-2 text-xs text-muted-foreground">
         <Info className="mt-0.5 size-4 shrink-0" />
         <p>
-          Financing Available — Qualified South Bay homeowners get $0 down
+          Financing Available — Qualified homeowners in [Service Area] get $0 down
           options. Rates shown are illustrative; actual terms depend on credit
           approval.
         </p>

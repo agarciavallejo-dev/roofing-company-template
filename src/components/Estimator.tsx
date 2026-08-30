@@ -71,7 +71,7 @@ export function Estimator() {
         </div>
         <h3 className="mt-5 text-2xl font-bold">Estimate request received</h3>
         <p className="mt-2 text-sm text-muted-foreground">
-          A Hawthorne project manager will call you within one business hour with your
+          A local project manager will call you within one business hour with your
           firm quote.
         </p>
         {selected && (
@@ -242,11 +242,11 @@ export function Estimator() {
             <div className="grid gap-2 sm:grid-cols-2 sm:gap-3">
               <div className="grid gap-2">
                 <Label htmlFor="phone">Phone</Label>
-                <Input id="phone" type="tel" required placeholder="(424) 835-6576" />
+                <Input id="phone" type="tel" required placeholder="(555) 000-0000" />
               </div>
               <div className="grid gap-2">
                 <Label htmlFor="zip">ZIP code</Label>
-                <Input id="zip" required placeholder="90250" />
+                <Input id="zip" required placeholder="12345" />
               </div>
             </div>
             <div className="grid gap-2">
