@@ -242,7 +242,7 @@ export function Estimator() {
             <div className="grid gap-2 sm:grid-cols-2 sm:gap-3">
               <div className="grid gap-2">
                 <Label htmlFor="phone">Phone</Label>
-                <Input id="phone" type="tel" required placeholder="(555) 000-0000" />
+                <Input id="phone" type="tel" required placeholder="1-909-390-0003" />
               </div>
               <div className="grid gap-2">
                 <Label htmlFor="zip">ZIP code</Label>
