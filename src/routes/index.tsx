@@ -83,7 +83,7 @@ function Index() {
             </span>
           </div>
           <div className="ml-auto flex items-center gap-2">
-            <a href="tel:+15550000000" className="shrink-0">
+            <a href="tel:+19093900003" className="shrink-0">
               <Button variant="pill" size="pill" className="text-xs sm:text-sm">
                 <Phone className="size-4" />
                 <span className="hidden sm:inline">
@@ -135,9 +135,9 @@ function Index() {
                   Start free estimate
                 </Button>
               </a>
-              <a href="tel:+15550000000" className="sm:w-auto">
+              <a href="tel:+19093900003" className="sm:w-auto">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  <Phone className="size-4" /> (555) 000-0000
+                  <Phone className="size-4" /> 1-909-390-0003
                 </Button>
               </a>
             </div>
