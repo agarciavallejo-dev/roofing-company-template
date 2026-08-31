@@ -21,6 +21,6 @@ https://roofingcompanytemplate.lovable.app
 
 ## Author
 Anthony Garcia Vallejo
-- GitHub: github.com/agarciavallejo-dev
+- GitHub: https://github.com/agarciavallejo-dev/roofing-company-template
 - LinkedIn: linkedin.com/in/anthony-garcia-vallejo-dev
 - Portfolio: anthony-garcia-vallejo.lovable.app
